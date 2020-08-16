@@ -2922,11 +2922,6 @@ This is independent of context -- it doesn't check what state the
               ((<= indentation* column) indentation*)
               (t column))))))
 
-;;;; Initialization
-
-(paredit-define-keys)
-(paredit-annotate-mode-with-examples)
-(paredit-annotate-functions-with-examples)
 
 (provide 'paredit)
 
